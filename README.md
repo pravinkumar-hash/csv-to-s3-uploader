@@ -2,7 +2,7 @@
 
 **Pravin Kumar — Cloud & Python Learner**  
 GitHub: https://github.com/pravinkumar-hash
-LinkedIn: https://linkedin.com/in/www.linkedin.com/in/pravin-kumar-aa735924a
+LinkedIn:https://www.linkedin.com/in/pravin-kumar-aa735924a/
 
 ---
 
