@@ -1,12 +1,9 @@
 import boto3
 from botocore.exceptions import NoCredentialsError
 
-# AWS credentials → DO NOT TYPE DIRECTLY INSIDE CODE
-# Configure them using AWS CLI or environment variables
-
-BUCKET_NAME = "pravin-csv-upload-project"   # Your bucket name
-FILE_PATH = "sample.csv"                    # Local file
-S3_FILE_NAME = "uploaded-sample.csv"        # File name in S3
+BUCKET_NAME = "pravin-csv-upload-project"   
+FILE_PATH = "sample.csv"                    
+S3_FILE_NAME = "uploaded-sample.csv"        
 
 def upload_to_aws(local_file, bucket, s3_file):
     s3 = boto3.client('s3')
